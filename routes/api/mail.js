@@ -13,8 +13,8 @@ route.post('/',(req, res) => {
         from: "bookshalateam@gmail.com",
         to: req.body.email,
         subject: "Confirmation Mail",
-        text: "<a>http://http://18.191.134.59:2000/chngpwd</a>",
-        html:  '<p>Click <a href="http://http://18.191.134.59:2000/chngpwd">here</a> to reset your password</p>'
+        text: "<a>http://18.191.134.59:2000/chngpwd</a>",
+        html:  '<p>Click <a href="http://18.191.134.59:2000/chngpwd">here</a> to reset your password</p>'
 
     }
 
